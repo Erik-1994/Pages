@@ -1,0 +1,334 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+}
+p {
+  font-family: "Lora", serif;
+  color: rgb(89, 89, 89);
+  word-spacing: 0.12rem;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+/*header top section*/
+
+header {
+  border-bottom: solid rgb(159, 159, 159) 1px;
+  height: 5rem;
+}
+
+.logo img {
+  position: absolute;
+  height: 70px;
+  padding-left: 2rem;
+}
+
+.nav-bar ul {
+  display: block;
+}
+
+.nav-bar li {
+  list-style: none;
+  float: right;
+  padding-right: 2rem;
+  padding-top: 1.4rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(159, 159, 159);
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: 0.3rem;
+}
+.nav-bar a:hover {
+  color: rgb(255, 166, 0);
+}
+
+/* 1 section mid */
+/* left box*/
+
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+
+main {
+  width: 70rem;
+  margin: 0 auto;
+  padding-top: 7rem;
+  background-color: rgb(247, 247, 247);
+}
+
+.main_content {
+  width: 45rem;
+  padding-right: 5rem;
+}
+
+.main_content img {
+  width: 45rem;
+}
+
+.main_content h1 {
+  padding: 2rem 0 1rem 0;
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+
+.main_content h2 {
+  padding: 2rem 0 1rem 0;
+  margin-bottom: 0;
+}
+
+.main_content h3 {
+  padding: 0 0 2rem 0;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 200;
+  color: rgb(89, 89, 89);
+}
+
+.section_1 p:last-child {
+  padding-bottom: 7rem;
+}
+
+/* right box*/
+
+.button {
+  background-color: rgb(34, 34, 34);
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: 0.2rem;
+}
+
+.btn_wrap {
+  padding: 2rem 0 1rem 0;
+}
+
+.side_content {
+  width: 20rem;
+  font-size: 1rem;
+}
+.side_content p {
+  line-height: 1.4rem;
+}
+
+.side_content h2 {
+  padding-top: 2rem;
+}
+
+.side_content h2 {
+  padding-top: 2rem;
+}
+
+.top_side_content {
+  border-bottom: 1px solid rgb(171, 171, 171);
+  padding-bottom: 2.5rem;
+}
+.top_side_content img {
+  width: 20rem;
+}
+.bot_side_content {
+  border-bottom: 1px solid rgb(171, 171, 171);
+  padding-bottom: 2.5rem;
+}
+
+.bot_side_content ul {
+  padding-left: 0;
+}
+
+.bot_side_content li {
+  list-style: none;
+  padding: 1rem 0 1rem 0;
+}
+.bot_side_content li a {
+  color: rgb(248, 66, 66);
+}
+.bot_side_content li a:hover {
+  text-decoration: none;
+}
+
+/* section 2*/
+
+.section_2 {
+  width: 70rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  background-color: rgb(247, 247, 247);
+}
+
+.picture_s2 img {
+  width: 35rem;
+  float: left;
+}
+
+.side_content_s2 {
+  width: 35rem;
+  float: right;
+  background-color: rgb(213, 235, 245);
+  height: 423.55px;
+}
+
+.btn_wrap_s2 a {
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: rgb(0, 0, 0);
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: 0.2rem;
+  margin-left: 13rem;
+}
+.btn_wrap_s2 a:hover {
+  background: black;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.section_2 h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 2rem 0 0 0;
+}
+
+.section_2 p {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 2rem 5rem 2rem;
+}
+
+/* section 3*/
+
+.section_3 {
+  width: 70rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  clear: both;
+}
+
+.section_3 img {
+  width: 19.8rem;
+  border: 0.2rem solid rgb(200, 198, 198);
+}
+
+.section_3 h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.card_1,
+.card_2,
+.card_3 {
+  width: 20rem;
+  padding-top: 3rem;
+}
+.card_2,
+.card_3 {
+  padding-left: 5rem;
+}
+
+.btn_wrap_card {
+  padding: 2rem 0 5rem 4.2rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(43, 43, 43);
+  clear: both;
+  padding-bottom: 5rem;
+  border-top: 3px solid rgb(15, 15, 15);
+  color: rgb(89, 89, 89);
+}
+
+footer ul {
+  display: block;
+
+  position: relative;
+  padding-right: 25rem;
+  background-color: rgb(147, 146, 146);
+}
+
+footer li {
+  list-style: none;
+  float: right;
+  padding-right: 2rem;
+  background-color: rgb(84, 83, 83);
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+footer li p {
+  color: rgb(180, 178, 178);
+}
+
+footer li:first-child {
+  border-radius: 0 5px 5px 0;
+}
+
+footer li:last-child {
+  padding-left: 2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+/*
+
+.logo a{
+    background: url(....) left top no-repeat;
+    display: block;
+    width: 400px;
+    height: 200px;
+    text-indent: -9999;
+}
+
+{
+    clear: both;
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 700rem;  /* ked fleatujem vzdy dám aj width/šírku 
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    *zoom: 1;
+}
+*/
